@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Not hesaplayıcı</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <img src="afis.png" alt="Not hesaplayıcı" width="640" height="200">
+    <h1>Not hesaplayıcı</h1>
+    <p>Ortalama, vizenin yüzde 40'ı ile finalin yüzde 60'ının toplamıdır. Final 50'nin altındaysa ders kalır.</p>
+    <label>Vize <input id="vize" inputmode="decimal" placeholder="72,5"></label>
+    <label>Final <input id="final" inputmode="decimal" placeholder="60"></label>
+    <button id="hesapla">Hesapla</button>
+    <p id="sonuc" aria-live="polite"></p>
+  </main>
+  <script src="hesap.js"></script>
+</body>
+</html>
